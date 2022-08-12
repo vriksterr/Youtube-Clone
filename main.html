@@ -1,1 +1,126 @@
 <!--Welcome to my Youtube Clone Project-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youtube.com Clone</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  <!--VIDEO BOX-->
+  .video-preview {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 17px;
+  }
+
+  .channel-logo {
+    display: inline-block;
+    width: 35px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 10px;
+
+  }
+
+  .video-description {
+    display: inline-block;
+    width: 260px;
+  }
+
+  .video-title {
+    display: -webkit-box;
+    max-width: 260px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .channel-name {
+    margin-top: 0%;
+    margin-bottom: 8px;
+  }
+
+  .video-stats {
+    margin-top: 0%;
+  }
+
+  .logo {
+    width: 100%;
+    border-radius: 50%;
+
+  }
+
+  .thumbnail {
+    width: 300px;
+  }
+
+  .search_bar {
+    font-size: 15px;
+    display: block;
+  }
+
+  .video-title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .tickmark {
+    width: 15px;
+  }
+</style>
+
+<body>
+
+  <head><input type="text" placeholder="Search" class="search_bar"></head>
+
+
+  <div class="video-preview">
+
+    <!--1st row (Thumbnail)-->
+    <div><img
+        src="https://i.ytimg.com/vi/DMiD2guxKpA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY98ELZZYIeRLj4u0YowqA6Ko4BQ"
+        alt="The linux Experiment thumbnail" class="thumbnail" /></div>
+
+
+    <!--2nd row (logo and info)-->
+    <div>
+      <div class="channel-logo"><img src="https://yt3.ggpht.com/ytc/AMLnZu8MeNGeUjphrCQQ9VmGncdLicbpOpe998ijE3e6=s68-c-k-c0x00ffffff-no-rj 
+        " alt="The linux Experiment logo" class="logo" /></div>
+
+      <div class="video-description">
+
+        <div class="video-title">
+          <p class="video-title">Welcome to todays video we weill be taking a look at life</p>
+        </div>
+
+        <p class="channel-name">The Linux Experiment <img class="tickmark"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS40k_UbHNnvqjh1nLsoV9nKm-wtJ7v6jdQS9aRUmxhtoSiSJV8FxVF8ya8gDVovZhLeGY&usqp=CAU"
+            class="tickmark" /></p>
+
+        <p class="video-stats">1M views &#8226; 2 years ago</p>
+      </div>
+
+    </div>
+
+
+    <div class="video-info"></div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
